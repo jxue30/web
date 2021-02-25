@@ -5,24 +5,77 @@
      2021-02-15
  */
  
- p {
-	color: black;
-	font: 16px system-ui;
-	border: dotted green 6px;
-	padding: 10px;
-	
- }	
+ html {
+	 background-color: rgb(13, 13, 13);
+	 color: rgb(200, 200, 200);
+	 margin: 10px;
+ }
  
 h1 {
 	color: rgb(37, 175, 245, 1);
 	font: bold 30px cursive;
-	border: solid 5px rgb(37, 175, 245, 1)
+	margin-bottom: 5px;
 }
 
 h2 { 
-	color: blue;
-	font: oblique 24px sans-serif;
-	text-align: center
+	text-align: center;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
 }
 
-	
+a {
+	color: rgb(37, 175, 245, 1);
+}
+
+ p {
+	font: 16px system-ui;
+	padding: 10px;
+ }	
+ 
+#author-caption {
+	margin-top: 0%;
+	padding-top: 0px;
+	padding-left: 0px;
+	border: none;
+	color: rgb(37, 175, 245, 1);
+	font-family: cursive
+}
+
+#sec2, #sec3 {
+	text-align: left;
+	border-style: dashed;
+	border-color: rgb(200, 200, 200);
+	border-width: 5px;
+	box-sizing: content-box;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+#sec2 {
+	margin-right: 10px;
+}
+
+#sec3 {
+	margin-left: 10px;
+}
+
+.toc, .ts {
+	border-style: double;
+	border-color: rgb(200, 200, 200);
+	box-sizing: content-box;
+	width: 30%;
+	margin-top: 25px;
+	padding-left: 5px;
+	font: 120% monospace;
+}
+
+h2.ts {
+	text-align: left
+}
+
+
+
+
+
+
